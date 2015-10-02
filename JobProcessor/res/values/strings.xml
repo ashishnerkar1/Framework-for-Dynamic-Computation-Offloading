@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">JobProcessor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_pro_welcome">ProWelcomeActivity</string>
+    <string name="Empty" />
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+
+</resources>

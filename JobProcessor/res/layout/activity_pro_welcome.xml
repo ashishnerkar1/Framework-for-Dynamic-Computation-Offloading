@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Empty"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FCFCFC" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:text="Dynamic Mobile Cloud Computing - Job Processor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FCFCFC" />
+
+    <TextView
+        android:id="@+id/textViewRam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="#FCFCFC" />
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter Server IP Address"
+        android:textColor="#FCFCFC" />
+
+    <EditText
+        android:id="@+id/etIP"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:drawable/edit_text"
+        android:ems="10"
+        android:text="10.0.2.2" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter Name"
+        android:textColor="#FCFCFC" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:drawable/edit_text"
+        android:ems="10"
+        android:text="abc" />
+    
+    <Button
+        android:id="@+id/btnWelcomeOK"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OK" />
+
+</LinearLayout>
